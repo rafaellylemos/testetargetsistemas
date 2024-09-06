@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(192, 1, 1);
+    font-family: 'inter', sans-serif;
+    color: #fff;
+    width: 80vh;    
+    border-radius: 10px;
+    margin: 0 1rem;
+}
+
+
+main {
+   margin: 0 1rem;
+   width: 80vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   color: #fff;
+
+   div {
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: rgb(97, 1, 1);
+    border-radius: 10px;
+
+    button {
+        border: none;
+        background-color: rgb(192, 1, 1);
+        color: #fff;
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: rgb(192, 1, 1);
+        }
+   }
+}
